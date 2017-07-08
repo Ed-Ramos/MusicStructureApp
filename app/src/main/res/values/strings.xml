@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Music Hub</string>
+    <string name="main_txt">This is a simple music app which plays music stored on the device.
+                            When app icon is clicked, this main activity screen opens. This activity
+                            will have three buttons which will allow users to display a list of Albums,
+                            Songs, and Playlists. Each of these categories will open in their own activity
+                            screens.</string>
+    <string name="albums_txt">In this activity, a list of albums will be shown.  Each list item will contain
+                              the album name and artist name.  Also it will contain an image representing the web.
+                              Clicking this image (shown below) will trigger an implicit Intent which takes you to
+                              the website of the artist or group for that album.   Clicking on a particular album list
+                              will trigger an explicit intent to open the media player activity. All songs within that
+                              album will then show up there to be played. The Songs, Playlists, Media Player and Media Hub
+                              activities will be linked from this activity and be reachable.  This activity will require a
+                              listview with the use of a custom ArrayAdapter class which will extend the ArrayAdapter class. </string>
+
+    <string name="songs_txt">In this activity, a list of songs will be shown.  Each list item will contain the song name and
+                             artist name.  Also it will contain an image representing the web. Clicking this image (shown below)
+                             will trigger an implicit Intent which takes you to the website of the artist or group for that song.
+                             Clicking on a particular song list will trigger an explicit intent to open the media player activity
+                             to play that song. The Albums, Playlists, Media Player and Media Hub activities will be linked from
+                             this activity and be reachable.  This activity will require a listview with the use of a custom ArrayAdapter
+                             class which will extend the ArrayAdapter class.</string>
+
+    <string name="playlist_txt">In this activity, a list of playlists will be shown.  Each list item will contain the playlist name.
+                                Clicking on a particular playlist will trigger an explicit intent to open the media player activity.
+                                All songs within that playlist will then show up there to be played. The Albums, Songs, Media Player
+                                and Media Hub activities will be linked from this activity and be reachable.  This activity will require
+                                a listview with the use of a custom Arrayadapter class which will extend the Arrayadapter class.</string>
+
+
+    <string name="payment_txt">In activity, a person can purchase a song.  A list of songs will be shown. Clicking on a song will trigger
+                               payment process. The app will use the Square POS API to process payments. By loading the com.squareup.sdk.pos package,
+                               we will have access to various classes and methods used for payment transaction via square. The Media Hub activity will
+                               be linked from this activity and be reachable.  This activity will require a listview with the use of a custom Arrayadapter
+                               class which will extend the Arrayadapter class</string>
+
+    <string name="media_player_txt">In this activity is where the media files are played. If triggered by the Albums or Playlist activity,
+                                    all songs that belong to the album or playlist will be shown and played in sequence.  If triggered by
+                                    the songs activity, then only that song will be played.  This activity will require the use of the MediaPlayer class.
+                                    It will also use various methods for that class to be able to pause, stop, fast-forward and rewind the song being played.
+                                    The Songs, Playlists, Albums and Media Hub activities will be linked from this activity and be reachable. This activity
+                                    will also require a listview with the use of a custom Arrayadapter class which will extend the Arrayadapter class</string>
+    <string name="albums">Albums</string>
+    <string name="playlists">Playlists</string>
+    <string name="media_player">Media Player</string>
+    <string name="music_hub">Music Hub</string>
+    <string name="songs">Songs</string>
+    <string name="buy_a_song">Buy a song</string>
+    <string name="globe_image_for_web_access">globe image for web access</string>
+
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_playlist"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.musicstructureapp.PlaylistsActivity">
+
+    <TextView
+        android:text="@string/playlist_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:id="@+id/textView"/>
+
+    <Button
+        android:text="@string/songs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/songs_button" />
+
+    <Button
+        android:text="@string/albums"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/albums_button" />
+
+    <Button
+        android:text="@string/media_player"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/media_player_button" />
+
+    <Button
+        android:text="@string/music_hub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/media_hub_button" />
+
+</LinearLayout>
